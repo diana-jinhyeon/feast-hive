@@ -158,5 +158,7 @@ make lint
 
 ```shell
 pip install -e ".[test]"
+
+Test In databricks
 pytest -n 6 --host=localhost --port=10000 --database=default
 ```
